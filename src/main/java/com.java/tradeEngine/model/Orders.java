@@ -1,6 +1,5 @@
 package com.java.tradeEngine.model;
 
-
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
