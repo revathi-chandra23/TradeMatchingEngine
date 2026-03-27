@@ -5,14 +5,13 @@ import com.java.tradeEngine.fileHandling.CsvParser;
 import com.java.tradeEngine.matchingEngine.MatchingEngine;
 import com.java.tradeEngine.matchingEngine.PriceTimePriorityStrategy;
 import com.java.tradeEngine.model.OrderType;
-import com.java.tradeEngine.model.Orders;
+import com.java.tradeEngine.model.*;
 import com.java.tradeEngine.model.TradeType;
 import com.java.tradeEngine.trade.TradeStore;
 import com.java.tradeEngine.validation.*;
 import com.java.tradeEngine.validation.OrderValidationService;
 
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.*;
 import java.util.logging.Logger;
 
@@ -33,7 +32,7 @@ public class Main {
         List<Orders> allOrders = new ArrayList<>();
         allOrders.addAll(buyOrders);
         allOrders.addAll(sellOrders);
-        
+
 //order counters
         int totalBuy = 0;
         int totalSell = 0;
