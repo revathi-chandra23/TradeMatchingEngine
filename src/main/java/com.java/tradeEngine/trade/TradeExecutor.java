@@ -2,7 +2,6 @@ package com.java.tradeEngine.trade;
 
 import com.java.tradeEngine.model.Trade;
 import com.java.tradeEngine.model.TradeType;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Instant;

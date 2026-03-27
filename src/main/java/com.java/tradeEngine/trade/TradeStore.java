@@ -1,7 +1,6 @@
 package com.java.tradeEngine.trade;
 
 import com.java.tradeEngine.model.Trade;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
