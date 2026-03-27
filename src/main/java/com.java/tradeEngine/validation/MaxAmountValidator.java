@@ -3,7 +3,6 @@ import com.java.tradeEngine.exceptions.AmountLimitExceededException;
 import com.java.tradeEngine.exceptions.ValidationException;
 import com.java.tradeEngine.model.Orders;
 public class MaxAmountValidator implements OrderValidator {
-
     @Override
     public void validate(Orders order) throws Exception {
         double value = order.getPrice() * order.getQuantity();// Ensures that the order value (price × quantity)

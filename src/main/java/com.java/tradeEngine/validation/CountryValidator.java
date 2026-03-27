@@ -13,7 +13,6 @@ public class CountryValidator implements OrderValidator {
             "US","UK","IN","SG","JP","DE","FR" //only orders from specified countries
     ));
 
-
     @Override
     public void validate(Orders order) throws Exception {
         if (!ALLOWED_COUNTRIES.contains(order.getCountryCode().toUpperCase())) {
