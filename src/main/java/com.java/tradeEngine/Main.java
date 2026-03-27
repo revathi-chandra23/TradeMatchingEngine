@@ -95,6 +95,9 @@ public class Main {
         logger.info("MATCHING COMPLETED ");
 
 
+
+        
+
         // -------------------- TRADE STATS --------------------
         int totalTrades = TradeStore.getAllTrades().size();
 
