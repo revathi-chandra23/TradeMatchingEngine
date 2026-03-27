@@ -5,4 +5,3 @@ public class InsufficientQuantityException extends Exception {
         super(msg);
     }
 }
-
