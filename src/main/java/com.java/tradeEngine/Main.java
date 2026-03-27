@@ -33,6 +33,7 @@ public class Main {
         List<Orders> allOrders = new ArrayList<>();
         allOrders.addAll(buyOrders);
         allOrders.addAll(sellOrders);
+        
 //order counters
         int totalBuy = 0;
         int totalSell = 0;
